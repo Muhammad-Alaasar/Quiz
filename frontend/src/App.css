@@ -1,0 +1,91 @@
+.App-header {
+  background-color: #000000;
+  min-height: 20vh;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.App-header h2 {
+  margin: 0;
+}
+
+.disabledElement {
+  background: #ccc;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+span {
+  color: red;
+}
+
+span.correct {
+  color: green;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0 35px 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  background: #ccc;
+  padding: 8px 20px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-right: 40px;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #fff;
+}
+
+meter {
+  margin-left: 30px;
+  width: 30%;
+}
+
+#finish {
+  margin: 50px auto;
+  display: block;
+  background-color: black;
+  color: white;
+}
+
+#finish:hover {
+  color: black;
+  background-color: white;
+}
+
+.hidden:not(:first-of-type) {
+  display: none;
+}
+
+.rank {
+  text-align: center;
+  margin: 20vh 25vw 25px;
+  background: #ccc;
+  padding: 20px 0;
+}
+
+.try-again {
+  margin: 0 auto;
+  display: block;
+}
+
+.finish-now {
+  display: block;
+  margin-left: auto;
+}
+
+.finish-now a {
+  text-decoration: none;
+}
